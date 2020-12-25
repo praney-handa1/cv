@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+}
+/* ------------------------------------------- */
+.small-img {
+  display: inline-block;
+  padding-top: 8px;
+  height: 40px;
+  width: 40px;
+}
+
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff5ea;
+}
+/* 
+li {
+  float: right;
+} */
+
+.leftybuttom {
+  float: left;
+}
+.righty {
+  float: right;
+}
+
+li a {
+  font-family: "Andika New Basic", sans-serif;
+  display: block;
+  color: #968c83;
+  text-align: center;
+  padding: 0.2em 0.1em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+/* ------------------------------------------- */
+.intro {
+  padding-top: 15%;
+  background-color: #968c83;
+  margin-block-end: 0;
+  margin-block-start: 0%;
+}
+.photo {
+  text-align: center;
+  display: block;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-heading {
+  color: #d6d2c4;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.top-heading-2 {
+  color: #d6d2c4;
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.blackforest {
+  display: block;
+  width: 100%;
+}
+/* ------------------------------------------- */
+.skills {
+  background-color: #fff5ea;
+  font-family: "Andika New Basic", sans-serif;
+  padding-bottom: 150px;
+}
+
+.top-skill {
+  padding-top: 5%;
+  color: #968c83;
+}
+
+.bc {
+  text-align: right;
+  clear: right;
+}
+
+.skill-row {
+  width: 50%;
+  /* display: inline-block; */
+  text-align: left;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  clear: left;
+}
+
+div {
+  margin: 0px 0px;
+}
+
+.seo {
+  margin-top: 10px;
+  width: 8em;
+  height: 8em;
+  float: left;
+  margin-right: 30px;
+  padding: 30px;
+}
+
+.contact-me {
+  padding-top: 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ebb5b3;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 1%;
+}
+
+.contact-us {
+  padding-top: 0;
+  background-color: #fadcdb;
+  text-align: center;
+}
+
+.footer-link {
+  text-align: center;
+  font-family: monospace, sans-serif;
+  font-style: normal;
+  color: #11999e;
+
+  margin-left: 15px;
+  text-decoration: underline overline #ff3028;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+.top3 {
+  font-size: 2em;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  color: brown;
+}
